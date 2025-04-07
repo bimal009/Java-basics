@@ -19,19 +19,39 @@ public class Patterns {
         // * ..*
         // *****
 
-        int n = 4; // number of rows
-        int m = 5; // number of columns
+        // int n = 4;
+        // int m = 5;
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
-                // Print * for boundary positions
-                if (i == 1 || i == n || j == 1 || j == m) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= m; j++) {
+        // // Print * for boundary positions
+        // if (i == 1 || i == n || j == 1 || j == m) {
+        // System.out.print("*");
+        // } else {
+        // System.out.print(" ");
+        // }
+        // }
+        // System.out.println();
+        // }
+
+        // pattern 3
+
+        // *
+
+        // * *
+
+        // * * *
+
+        // * * * *
+
+        // * * * * * /
+
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
-            System.out.println(); // move to next line
+            System.out.println("");
         }
+
     }
 }
